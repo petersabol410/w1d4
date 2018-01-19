@@ -1,10 +1,10 @@
 function makeLoadedDie() {
   var list = [5, 4, 6, 1, 6, 4, 2, 3, 3, 5];
-  var index = -1;
+  var index = 0;
 
     return function() {
-      index += 1;
-      return list[index];
+      //index += 1;
+      return list[index++];
   }
 }
 
